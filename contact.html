@@ -1,127 +1,86 @@
-<!DOCTYPE html>
-<html lang="en">
+  <!DOCTYPE html>
+<html>
 
 <head>
-    <meta charset="utf-8">
-    <title>Contact Page</title>
-    <style>
-        .header {
-            height: 72px;
-            width: 1000px;
-            background-color: #B2B2FF;
-        }
-        nav ul {
-            list-style-type: none;
-            float: right overflow: hidden;
-            color: #660198: font-family: Ariel;
-            font-size: 20px;
-        }
-        nav li {
-            float: right;
-            margin-top: 25px;
-            padding-right: 40px;
-            padding-left: 40px;
-            font-size: 20px;
-            color: #660198;
-        }
-        p {
-            width: 1000px;
-        }
-        a:hover {
-            color: white;
-        }
-        a:hover,
-        a:visited,
-        a:link,
-        a:active {
-            text-decoration: none;
-        }
-    </style>
-
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    
+      
 </head>
 
 <body>
+
+    <!----- Header  ------->
+
+
     <div class="header">
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a>
-                </li>
-                <li><a href="about.html">About</a>
-                </li>
-                <li><a href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </nav>
+        <div class="logo"></div>
+        <ul class="top-menu">
+            <li><a href="home.html">Home</a>
+            </li>
+            <li><a href="about.html">About</a>
+            </li>
+            <li><a href="skills.html">Skills</a>
+            </li>
+            <li><a href="contact.html">Contact</a>
+            </li>
+        </ul>
     </div>
-   
 
-    <h1>Contact Page</h1>
+    <!---Body Content --->
+    <!---Main-Content---->
 
-    <h3>This Website is a profile of Janet Martin. This is the Contact Page.</h3>
 
-    <h4>Please contact us about Janet Martin</h4>
+    <p id="nameheader"> Janet H. Martin</p>
+    <p id="subheader"> Web Designer</p>
 
-    <ul>
-        <li>We will give you the most current agenda of Janet Martin.</li>
-        <li>How she invests her time.</li>
-        <li>What are her dog's names</li>
-    </ul>
 
-    <p>Since I currently spend so much time on W3schools, I thought it fitting to use a picture of their logo.</p>
-    <p>This will be changed in the near future.</p>
-    <img src="http://www.w3schools.com/images/w3schools_green.jpg" alt="Using the logo for W3schools">
+    <a href="contact.html" id="contractsbutton" class="stylish">Contracts</a>
+    <a href="skills.html" id="worksbutton" class="stylish">Skills</a>
+    <a href="about.html" id="aboutbutton" class="stylish">About</a>
+    <a href="home.html" id="homebutton" class="stylish">Home</a>
 
+
+
+    <div id="wrapper">
+        <div id="sideBar">
+ 
     <form>
-        <fieldset class="Contact Information">
-            <br>
-            <br>
-            <legend>Contact Information</legend>
-            <label>
-                First Name:
-                <input type="text" name="firstname" required>
+        <div class="container1">
+            <div class="heading1">
+                <h2> Contact Form</h2>
+            </div>
+    
+        </div>
+        <div class="User-Information">
+           <label>
+                Your Name:
+                <input type="text" name="username" placeholder="Your Full Name" required>
             </label>
-            <br>
-            <br>
+           
             <label>
-                Last Name:
-                <input type="password" name="lastname" required>
+                Your Email:
+                <input type="email" name="email-address" placeholder="Valid Email Address" required>
             </label>
-            <br>
-            <br>
-            <label>
-                Email Address:
-                <input type="email" name="email-address" required>
-
+           
+            <label>Message:
+                <textarea id="message" name="message" placeholder="Your Message to Us"></textarea>
             </label>
-            <br>
-
-            <br>
-
-            <label>
-                Phone Number:
-                <input type="phone" name="phone" required>
-
-            </label>
-            <br>
-            <br>
-
-            <label>
-                Home Address:
-                <input type="addres" name="address" required>
-
+           
+            <label>Subject :
+                <div class="subject">
+                    <select name="subject">
+                        <option value="Job Prospect">Job Prospect</option>
+                        <option value="Employment Opportunity">Employment Opportunity</option>
+                        <option value="Background Information">Background Information</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
             </label>
 
-            <br>
-            <br>
-            <br>
+           
 
-            <input type="submit" name="submit" value="Submit">
-
-
-            <button name="submit">
-                <strong>Send Us</strong> a Message
-            </button>
-
+            <button class="btn">Send</button>
+        </div>
     </form>
 
 </body>
