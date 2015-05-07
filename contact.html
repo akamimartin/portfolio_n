@@ -2,6 +2,10 @@
 <html>
 
 <head>
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script="javascript" type="text/javascript"></script>
     <link rel="stylesheet" type="text/css" href="styles.css">
     
       
@@ -9,6 +13,17 @@
 
 <body>
 
+    <script>
+        function myemail() {
+            var email1 = "akamimartin@";
+            var email2 = "gmail.com";
+            var emailaddr = "My email is " + email1 + email2;
+             $('#emailid').html(emailaddr);
+        }
+            
+        
+    
+    </script>
     <!----- Header  ------->
 
 
@@ -34,7 +49,7 @@
     <p id="subheader"> Web Designer</p>
 
 
-    <a href="contact.html" id="contractsbutton" class="stylish">Contracts</a>
+    <a href="contact.html" id="contractsbutton" class="stylish">Contract</a>
     <a href="skills.html" id="worksbutton" class="stylish">Skills</a>
     <a href="about.html" id="aboutbutton" class="stylish">About</a>
     <a href="home.html" id="homebutton" class="stylish">Home</a>
@@ -42,30 +57,42 @@
 
 
     <div id="wrapper">
+                       
+          <button id="emailbutton"  onclick="myemail()">Please click to see my email</button>
+          <p id=emailtext><span id="emailid" </span></p>
         <div id="sideBar">
  
+         
+        </div> 
+        
+      
+            
     <form>
         <div class="container1">
             <div class="heading1">
-                <h2> Contact Form</h2>
+                <h4> Contact Form</h4>
+              
+               
             </div>
     
         </div>
+       
         <div class="User-Information">
+             
            <label>
-                Your Name:
+                Name:
                 <input type="text" name="username" placeholder="Your Full Name" required>
             </label>
-           
+            <br>
             <label>
                 Your Email:
                 <input type="email" name="email-address" placeholder="Valid Email Address" required>
             </label>
-           
+            <br>
             <label>Message:
                 <textarea id="message" name="message" placeholder="Your Message to Us"></textarea>
             </label>
-           
+            <br>
             <label>Subject :
                 <div class="subject">
                     <select name="subject">
