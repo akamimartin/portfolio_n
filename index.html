@@ -1,53 +1,169 @@
-   <!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Janet Martin's Portfolio</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="stylesave.css">
+
 </head>
 
 <body>
-<script>
- 
-    <!----- Header  ------->
+    <script>
+        $(document).ready(function() {
 
- 
-    <div class="header">
-        <div class="logo"></div>
-        <ul class="top-menu">
-            <li ><a href="home.html">Home</a>
-            </li>
-            <li><a href="about.html">About</a>
-            </li>
-            <li><a href="skills.html">Skills</a>
-            </li>
-            <li><a href="contact.html">Contact</a>
-            </li>
-        </ul>
+            console.log('this is working1after ready');
+        });
+
+        function home() {
+
+            $.ajax({
+                dataType: 'html',
+                url: 'home_template.html',
+                cache: false,
+                error: function() {
+                    $('#resultTalk').html('<p>An error has occurred</p>');
+                },
+                success: function(response) {
+                    console.log('this is working1');
+                    $('.main_container1').html(response);
+                    console.log(response);
+                }
+            });
+        };
+
+        function about() {
+
+            $.ajax({
+                dataType: 'html',
+                url: 'about_template.html',
+                cache: false,
+                error: function() {
+                    $('#resultTalk').html('<p>An error has occurred</p>');
+                },
+                success: function(response) {
+                    console.log('this is working1');
+                    $('.main_container1').html(response);
+                    console.log(response);
+                }
+            });
+        };
+
+        function skills() {
+
+            $.ajax({
+                dataType: 'html',
+                url: 'skills_template.html',
+                cache: false,
+                error: function() {
+                    $('#resultTalk').html('<p>An error has occurred</p>');
+                },
+                success: function(response) {
+                    console.log('this is working1');
+                    $('.main_container1').html(response);
+                    console.log(response);
+                }
+            });
+        };
+
+        function contact() {
+
+            $.ajax({
+                dataType: 'html',
+                url: 'contact_template.html',
+                cache: false,
+                error: function() {
+                    $('#resultTalk').html('<p>An error has occurred</p>');
+                },
+                success: function(response) {
+                    console.log('this is working1');
+                    $('.main_container1').html(response);
+                    console.log(response);
+                }
+            });
+        };
+    </script>
+
+
+    <div class="container">
+        <div class="row ">
+            <nav class="navbar" id=>
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar" id="spanId"></span>
+                        <span class="icon-bar" id="spanId"></span>
+                        <span class="icon-bar" id="spanId"></span>
+                    </button>
+
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="#" onclick="home()">HOME</a>
+                        </li>
+                        <li><a href="#" onclick="about()">ABOUT US</a>
+                        </li>
+                        <li><a href="#" onclick="skills()">SKILLS</a>
+                        </li>
+                        <li><a href="#" onclick="contact()">CONTACT</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </nav>
+        </div>
     </div>
 
-    <!---Body Content --->
-    <!---Main-Content---->
+    <div class="container">
+        <div class="row text-center">
+            <p class="col-sm-12 col-xs-12" id="name-header">Janet Martin</p>
+            <p class="col-sm-12 col-xs-12" id="sub-header">Web Designer</p>
+        </div>
+
+    </div>
+
+    <div class="container">
+        <div class="row text-center" id="buttonid">
+            <div class="col-sm-3 col-xs-3"></div>
+            <a href="#" onclick="home()" id="homebutton" class="col-sm-2 col-xs-2 stylish">Home</a>
+            <a href="#" onclick="about()" id="aboutbutton" class="col-sm-2 col-xs-2 stylish">About</a>
+            <a href="#" onclick="skills()" id="worksbutton" class="col-sm-2 col-xs-2 stylish">Skills</a>
+            <a href="#" onclick="contact()" id="contractsbutton" class=" col-sm-3 col-xs-3 stylish">Contact</a>
+        </div>
+    </div>
+
+    <div class="main_container1">
+    </div>
+
+   <!-- <div class="container">
+        <div class="bluefooter bottom-fixed" id="footer-img">
+
+            <img class="col-md-1 col-xs-1" id="footerdots" src="images/dots-footer.png">
+            <p class="col-sm-7 col-xs-7" id="footertitle">Janet Martin's Portfolio</p>
+            <div>
+                <img class="col-md-1 col-xs-1 footerphone" id="footerphone" src="images/phone.png">
+                <p class="col-sm-3 col-xs-3  phone-num" id='phone-num'>800 264-2099</p>
+            </div>
 
 
-    <p id="nameheader"> Janet H. Martin</p>
-    <p id="subheader"> Web Designer</p>
-  
-    <a href="contact.html" id="contractsbutton" class="stylish">Contract</a>
-    <a href="skills.html" id="worksbutton" class="stylish">Skills</a>
-    <a href="about.html" id="aboutbutton" class="stylish">About</a>
-    <a href="home.html" id="homebutton" class="stylish">Home</a>
-
-
-     
-
-       
-
-
-
-
+            <div class="col-sm-1  col-xs-1 clearfix"></div>
+        </div>
+    </div> -->
 
 
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+

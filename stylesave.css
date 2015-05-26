@@ -1,0 +1,629 @@
+body {
+    background-color: #ffffe7;
+}
+.container {
+    height: 100%;
+    width: 100%;
+    background-color: #ffffe7;
+}
+#buttonid {
+    text-align: center;
+    margin-top: 100px;
+}
+/*.stylish {
+     float: right;
+     width: 100%;
+     margin-top: 45px;
+     margin-left: -70px;
+     margin-right: 140px;
+ } */
+
+.stylish {
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 45px;
+    display: inline-block;
+    width: 215px;
+    height: 210px;
+    border-radius: 135px;
+    border: 10px solid white;
+    line-height: 125px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #fff;
+    font-family: Ariel;
+    color: white;
+    font-size: 28px;
+    font-style: italic;
+    box-shadow: 2px 2px 3px #EDEDED;
+    font-weight: 800: font-weight: bolder;
+}
+.stylish:hover {
+    border: 7px solid white;
+    color: purple;
+    font-weight: bolder;
+    text-decoration: none;
+    background: white;
+}
+#name-header {
+    margin-left: 15px;
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Tangerine', serif;
+    font-size: 100px;
+    color: darkmagenta;
+    font-weight: bolder;
+}
+#sub-header {
+    margin-left: 15px;
+    margin-top: 10px;
+    text-align: center;
+    color: darkmagenta;
+    font-size: 30px;
+    font-family: Satisfy;
+    font-weight: bold font-family: 'Goudy Old Style', Garamond, 'Big Caslon', 'Times New Roman', serif;
+    font-variant: 30%;
+    line-height: 26.3999996185303px;
+    font-weight: bolder;
+    margin-botton: 30px;
+}
+#contractsbutton {
+    background: purple;
+    color: white;
+    font-weight: bolder;
+}
+#worksbutton {
+    background-color: lightblue;
+    color: white;
+    font-weight: bolder;
+}
+#aboutbutton {
+    background-color: lightgreen;
+    color: white;
+    font-weight: bolder;
+}
+#homebutton {
+    background-color: pink;
+    color: white;
+    font-weight: bolder;
+}
+#contractsbutton:hover {
+    border: 7px solid white;
+    color: purple;
+    text-decoration: none;
+    background: white;
+    font-weight: bolder;
+}
+#worksbutton:hover {
+    border: 7px solid white;
+    color: purple;
+    text-decoration: none;
+    background: white;
+    font-weight: bolder;
+}
+#aboutbutton:hover {
+    border: 7px solid white;
+    color: purple;
+    text-decoration: none;
+    background: white;
+    font-weight: bolder;
+}
+#homebutton:hover {
+    border: 7px solid white;
+    color: purple;
+    text-decoration: none;
+    background: white;
+    font-weight: bolder;
+}
+a:hover {
+    color: navyblue;
+}
+a:hover,
+a:visited,
+a:link,
+a:active {
+    text-decoration: none;
+}
+.aboutsection {
+    height: 300px;
+    width: 500px;
+    background-color: white: color: black;
+    font-size: 20px;
+}
+#wrapper {
+    margin-left: 155px;
+    margin-top: 155px;
+    background: white;
+    width: 800px;
+    height: 660px;
+    border-radius: 25px;
+}
+#sideBar {
+    float: left;
+    width: 350px;
+    height: 200px;
+    background: white;
+    #display: block;
+    font-size: 18px;
+    color: black;
+    margin: 20px;
+}
+#mainContent {
+    float: right;
+    height: 550px;
+    width: 350px;
+    background: white;
+    color: black;
+    font-size: 18px;
+    #display: block;
+    float: left;
+    margin: 20px;
+    background-image: url("assets/self.jpg");
+    background-repeat: no-repeat;
+    background-position: 2px-40px;
+}
+ 
+
+
+
+/*.main_container1 {
+    margin-top: 05px;
+    margin-left: 30px;
+    width: 600px;
+    text-align: left;
+    background-color: white;
+    border 1px solid purple;
+    border-radius: 10px;
+    color: purple;
+    font-size: 16px;
+    
+} */
+    
+#home-bar {
+    margin-top:  10px;
+    heigth: 500px;
+    align-items: center;
+    margin-left: 40px;
+    width: 950px;
+    text-align: left;
+    background-color: white;
+    border 1px solid purple;
+    border-radius: 10px;
+    color: purple;
+    font-size: 16px;
+    
+}    
+
+ 
+
+#about-bar {
+    margin-top:  7px;
+    heigth: 500px;
+    align-items: center;
+    margin-left: 35px;
+    width: 950px;
+    text-align: left;
+    background-color: white;
+    border 1px solid purple;
+    border-radius: 10px;
+    color: purple;
+    font-size: 16px;
+    
+} 
+
+#skills-bar {
+    margin-top:  7px;
+    heigth: 500px;
+    align-items: center;
+    margin-left: 35px;
+    width: 950px;
+    text-align: left;
+    background-color: white;
+    border 1px solid purple;
+    border-radius: 10px;
+    color: purple;
+    font-size: 16px;
+    
+} 
+#contact-bar {
+    margin-top:  7px;
+    heigth: 800px;
+    margin-left: 35px;
+    width: 950px;
+    background-color: white;
+    border 1px solid purple;
+    border-radius: 10px;
+    color: purple;
+    font-size: 12px;
+    align-items: center;
+    
+} 
+
+
+
+
+
+
+/****CSS for Contact Page***/
+
+.container1 {
+    margin-top: -30px;
+    border: 1x solid #e7e7e7;
+    height: 200px;
+    width: 440px;
+    background-color: #f7f7f7;
+    border: 2px solid #e7e7e7;
+}
+.heading1 {
+    color: #7c7c7c;
+    font-weight: bold;
+    border-radius: 86px;
+    color: #7c7c7c;
+    margin: 10px 0 5px 30px;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+#subtitle {
+    margin: 0px 0 15px 31px;
+    margin-top: -12px;
+    fonts-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px;
+    font-weight: bold;
+    color: #7c7c7c background-color: #f7f7f7;
+}
+.User-Information {
+    display: block;
+    height: 400px;
+    line-height: 60px;
+    width: 440px;
+    background-color: #f7f7f7;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #7c7c7c;
+    font-weight: bold;
+    border-left: 2px solid #e7e7e7;
+    border-right: 2px solid #e7e7e7;
+    border-bottom: 2px solid #e7e7e7;
+}
+label {
+    margin-left: 15px;
+}
+textarea {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 296px;
+    margin-left: 23px;
+    height: 140px;
+}
+input {
+    width: 290px;
+    height: 25px;
+    margin-left: 10px;
+}
+#message {
+    width: 287px;
+    height: 80px;
+    vertical-align: top;
+    font-family: inherit;
+    font-size: inherit;
+}
+.btn {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 107px;
+    padding: 5px 15px;
+    font-family: serif;
+    font-size: 1.1em;
+    color: white;
+    background: #e27578;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px #c8c8c8;
+    cursor: pointer;
+}
+select {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: absolute;
+    margin-top: -20px;
+    color: #a7a7a7;
+    font-weight: 600;
+    width: 293px;
+    height: 30px;
+    margin-left: 107px;
+}
+/* other css */
+
+.container {
+    color: #744d26;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #ffffe7;
+}
+#spanId {
+    background-color: purple;
+}
+.nav>li>a {
+    color: puple;
+    font-size: 16px;
+}
+.navbar {
+    background-color: #ffffe7;
+    color: purple;
+    font-size: 12px;
+}
+nav {
+    background-color: #ffffb2;
+    border: 1px solid #ffffe7;
+    color: purple;
+    font-size: 14px;
+}
+.navbar-toggle {
+    color: purple;
+}
+.navbar-header {
+    border: 1px solid white;
+    background-color: #ffffe7;
+    color: brown;
+}
+#myNavbar {
+    background-color:#ffffb2;
+    border: 1px solid white;
+    color: purple;
+}
+.spanline {
+    background-color: brown;
+}
+ul li a {
+    color: purple;
+    font-size: 20px;
+    background-color:#ffffb2;
+}
+#navid {
+    color: brown: background: brown;
+}
+listx {
+    float: left;
+}
+#containernav {
+    background-color: #ffffe7;
+    border: 1px solid white;
+    color: brown;
+}
+.navbar-nav .navbar-default {
+    font-size: 20px;
+    color: purple;
+    border: 1px solid white;
+}
+.row1 {
+    color: purple;
+}
+#email-addr {
+    color: teal;
+    font-style: italic;
+    margin-top: 15px;
+}
+#nameid {
+    background-color: #e86b35;
+    width: 310px;
+    height: 35px;
+    color: brown;
+    border-radius: 0px;
+}
+#emailid {
+    background-color: #f6b53e;
+    width: 310px;
+    height: 35px;
+    color: brown;
+    border-radius: 0px;
+}
+#phoneid {
+    background-color: #06b4af;
+    width: 310px;
+    height: 35px;
+    color: brown;
+    border-radius: 0px;
+}
+#subjectid {
+    background-color: #e86b35;
+    width: 310px;
+    height: 35px;
+    color: brown;
+    border-radius: 0px;
+}
+#messageid {
+    background-color: #f6b53e;
+    width: 310px;
+    height: 115px;
+    border-radius: 0px;
+}
+#submit {
+    color: brown;
+    float: right;
+    background-color: #06b4af;
+    width: 115px;
+    height: 35px;
+    text-align: left;
+    border-radius: 0px;
+}
+#phonetitle {
+    margin-top: 20px;
+}
+.list-group-item {
+    width: 152px;
+    height: 35px;
+    background-color: #f6ede6;
+    color: brown;
+    font-weight: 400px;
+    font-size: 14px;
+    border-radius: 0px;
+    //text-align: center;
+    list-style-type: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#list2 {
+    //text-align: center;
+    width: 218px;
+    height: 35px;
+    background-color: #f6ede6;
+    color: brown;
+    font-weight: 400px;
+    font-size: 14px;
+    border-radius: 0px;
+    text-align: center;
+    list-style-type: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+ul li a {
+    list-style-type: none;
+}
+@media (min-width: @screen-sm-min) {
+    ...
+}
+/* Medium devices (desktops, 992px and up) */
+
+@media (min-width: @screen-md-min) {
+    ...
+}
+/* Large devices (large desktops, 1200px and up) */
+
+@media (min-width: @screen-lg-min) {
+    ...
+}
+@media (max-width: @screen-xs-max) {
+    ...
+}
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+    ...
+}
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+    ...
+}
+@media (min-width: @screen-lg-min) {
+    ...
+}
+#topnav > li > a:visited,
+#topnav > li > a:link,
+#topnav > li > a:active {
+    color: brown;
+    font-size: 15px;
+}
+#buttonId {
+    color: brown;
+}
+.spanline {
+    color: brown;
+}
+#title1 {
+    color: brown;
+    font-style: italic;
+    font-family: cursive;
+    font-size: 24px;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 26.3999996185303px;
+    margin-bottom: 15px;
+}
+#title2a {
+    color: brown;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+#formtitle {
+    color: brown;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+#container-img {
+    background-image: url(images/strips2.png);
+    background-repeat: repeat-y;
+    height: 100%;
+    background-position: right;
+    background-size: 40% 100%;
+}
+#container-imgs {
+    background-image: url(images/strips1.png);
+    background-repeat: repeat-y;
+    height: 100%;
+    background-position: right;
+    background-size: 20% 100%;
+}
+#box2-img {
+    margin-right: -30px;
+    width: 105%;
+    margin-top: 15px;
+}
+.row1 {
+    margin-left: 15px;
+}
+.dotimg {
+    margin-top: 10px;
+    height: 100%;
+}
+.dotimg2 {
+    margin-top: 10px;
+    height: 100%;
+}
+#dots-box1 {
+    margin-top: 70px;
+    height;
+    100%;
+}
+#lgcupcake-img {
+    margin-left: -14px;
+    width: 102.5%;
+}
+#title2 {
+    color: brown;
+    text-align: center;
+    color: brown;
+    font-style: italic;
+    font-family: cursive;
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 26.3999996185303px;
+    margin-bottom: 15px;
+}
+a#footerx {
+    background-color: #06b4af;
+    height: 80px;
+    width: 100%;
+}
+.phone-num {
+    color: white;
+    margin-top: 20px;
+}
+.footerphone {
+    margin-top: 20px;
+    background-position: right;
+    height: 15px;
+    width: 55px;
+    margin-left: 15px;
+}
+.bluefooter {
+    margin-left: 1px;
+    width: 102.5%;
+    height: 100%;
+    background-color: #06b4af;
+    height: 53px;
+    margin-left: -13px;
+}
+}
+#footdots {
+    height: 20px;
+}
+#footertitle {
+    margin-top: 25px;
+    color: white;
+    fontsize: 15px;
+    text-align: center;
+}
