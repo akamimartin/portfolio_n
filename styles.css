@@ -19,7 +19,6 @@
        border-radius: 85px;
        border: 10px solid white;
        line-height: 125px;
-       line-height: 125px;
        text-align: center;
        text-decoration: none;
        text-shadow: 0 1px 0 #fff;
@@ -63,7 +62,7 @@
        color: inherit;
    }
    #nameheader {
-       margin-top: 120px;
+       margin-top: 210px;
        text-align: center;
        #font-family: Arial;
        font-family: 'Tangerine', serif;
@@ -202,9 +201,8 @@
    }
    /****CSS for Contact Page***/
    .container1 {
-       margin-top: -30px;
        border: 1x solid #e7e7e7;
-       height: 200px;
+       height: 100px;
        width: 440px;
        background-color: #f7f7f7;
        border: 2px solid #e7e7e7;
@@ -256,9 +254,6 @@
        height: 25px;
        margin-left: 10px;
    }
-
-
-
    #message {
        width: 287px;
        height: 80px;
@@ -291,16 +286,3 @@
        height: 30px;
        margin-left: 107px;
    }
-
-   
-
-
-
-
-
-
-
-
-
-
-
