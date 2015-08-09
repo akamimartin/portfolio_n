@@ -1,10 +1,14 @@
    html {
-       width: 1100px;
-       background-color: lightyellow;
+       width: 900px;
+       /*background-color: wall3.jpg; */
+       background-image: url("assets/white1.jpg");
+       /*background-image: url("assets/blue_wall.jpg"); */
    }
    body {
-       position: absolute;
-   }
+    
+       width:100%;
+
+          } 
    .stylish {
        float: right;
        width: 100%;
@@ -37,7 +41,7 @@
        text-decoration: none;
        background: white;
    }
-   .header {
+  /* .header {
        width: 1100px;
        height: 50px;
        background: #fffabe;
@@ -57,36 +61,49 @@
        font-size: 16px;
        color: purple;
    }
-   .top-menu li a {
+   .top-menu li a {  
        text-decoration: none;
        color: inherit;
-   }
+   } */
    #nameheader {
-       margin-top: 210px;
-       text-align: center;
-       #font-family: Arial;
+       margin-top: 5%;
+       margin-left: 56%;
+       width: 100%;
        font-family: 'Tangerine', serif;
-       #font-size: 48px;
-       font-size: 120px;
+       font-size: 80px;
        color: darkmagenta;
-       #font-family: Satisfy;
-       #font-size: 94px;
        font-weight: bolder;
    }
    #subheader {
-       margin-top: -130px;
-       #font-family: Arial;
-       text-align: center;
+
+       margin-top:  -80px;
+       margin-left: 66%;
+       font-family: Arial;
        color: darkmagenta;
-       font-size: 20px;
-       font-family: Satisfy;
-       #font-size: 94px;
+       font-size: 30px;
        font-weight: bold font-family: 'Goudy Old Style', Garamond, 'Big Caslon', 'Times New Roman', serif;
-       font-size: 24px;
        font-variant: 30%;
-       line-height: 26.3999996185303px;
-       font-weight: bolder;
-   }
+       /*line-height: 26.3999996185303px; */
+        width: 100%;
+    }
+
+    .container {
+      width: 100%;
+      margin-left: 4px;
+      margin-top: -2%
+    }
+
+
+   .button_container {
+    
+      text-align: center;
+      margin-top: -2%
+    }
+
+
+
+
+
    #contractsbutton {
        background: purple;
        color: white;
@@ -183,13 +200,28 @@
        background-repeat: no-repeat;
        background-position: 2px-40px;
    }
-   #homecontent {
-       margin-left: 155px;
-       margin-top: 155px;
+
+  
+   #button_container {
+       margin-left: 44.5%;
+       margin-top: 3%;
        background: white;
-       width: 800px;
+       width: 950px;
+       height: 20px;
+       border-radius: 20px;
+   }
+
+
+
+
+
+   #homecontent {
+       margin-left: 46.5%;
+       margin-top: 16%;
+       background: white;
+       width: 770px;
        height: 660px;
-       border-radius: 25px;
+       border-radius: 20px;
    }
    #homebar {
        float: left;
@@ -285,4 +317,10 @@
        width: 293px;
        height: 30px;
        margin-left: 107px;
+   }
+
+   .icon {
+   margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 20px;
    }
