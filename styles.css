@@ -1,9 +1,9 @@
    html {
        width: 950px;
        /*background-color: wall3.jpg; */
-       background-image: url("assets/three.jpg");
+       background-image: url("assets/gray_wall.jpg");
        /*background-image: url("assets/blue_wall.jpg"); */
-
+       background-repeat: no-repeat;
    
 
    }
@@ -74,16 +74,16 @@
        width: 100%;
        font-family: 'Tangerine', serif;
        font-size: 80px;
-       color: darkmagenta;
+       color: #8F00BF;
        font-weight: bolder;
    }
    #subheader {
-
+       
        margin-top:  -80px;
        margin-left: 66%;
        font-family: Arial;
-       color: darkmagenta;
-       font-size: 30px;
+       color: #8F00BF;
+       font-size: 40px;
        font-weight: bold font-family: 'Goudy Old Style', Garamond, 'Big Caslon', 'Times New Roman', serif;
        font-variant: 30%;
        /*line-height: 26.3999996185303px; */
@@ -97,11 +97,11 @@
     }
 
 
-   .button_container {
+   /*.button_container {
     
       text-align: center;
       margin-top: -2%
-    }
+    } */
 
 
 
@@ -208,7 +208,7 @@
    #button_container {
        margin-left: 44.5%;
        margin-top: 3%;
-       background: white;
+      /* background: white; */
        width: 950px;
        height: 20px;
        border-radius: 20px;
