@@ -1,5 +1,5 @@
    html {
-       width: 950px;
+       width: 100%;
        /*background-color: wall3.jpg; */
        background-image: url("assets/gray_wall.jpg");
        /*background-image: url("assets/blue_wall.jpg"); */
@@ -7,37 +7,35 @@
    
 
    }
-    body {
     
-       width:100%;
-
-   }   
  
    .stylish {
-       float: center;
-       margin-left: -10.5%;
-       margin-right: 15.9%;
-       margin-top: 5%;
+     text-align: right;
+      margin-left:  -35.5%;
+      margin-right:   42.2%; 
+      margin-top: 2.5%;
      
-   }
+     }
    .stylish {
        display: inline-block;
        width: 150px;
        height: 150px;
        border-radius: 95px;
        border: 10px solid white;
-       line-height: 125px;
-       text-align: center;
+       line-height: 70px;
+       text-align: center; 
        text-decoration: none;
        text-shadow: 0 1px 0 #fff;
        font-family: Ariel;
        color: white;
-       font-size: 28px;
+       font-size: 33px;
        font-style: italic;
-       font-wieght: 900;
+       font-weight: 900;
        box-shadow: 2px 2px 3px #EDEDED;
        font-weight: 800: font-weight: bolder;
-   }
+       vertical-align: text-bottom; 
+}
+
    .stylish:hover {
        border: 7px solid white;
        color: purple;
@@ -45,33 +43,11 @@
        text-decoration: none;
        background: white;
    }
-  /* .header {
-       width: 1100px;
-       height: 50px;
-       background: #fffabe;
-   }
-   .top-menu {
-       display: inline-block;
-       width: 70%;
-       position: absolute;
-       right: 2px;
-       top: 1.1%;
-   }
-   .top-menu li {
-       list-style-type: none;
-       display: inline;
-       margin-left: 30px;
-       text-transform: uppercase;
-       font-size: 16px;
-       color: purple;
-   }
-   .top-menu li a {  
-       text-decoration: none;
-       color: inherit;
-   } */
+   
+
    #nameheader {
-       margin-top: 5%;
-       margin-left: 50%;
+       margin-top: 3.9%;
+       text-align: center;
        width: 100%;
        font-weight: bold font-family: 'Goudy Old Style', Garamond, 'Big Caslon', 'Times New Roman', serif;
        font-size: 80px;
@@ -80,11 +56,11 @@
    }
    #subheader {
        
-       margin-top:  -80px;
-       margin-left: 54.5%;
+       margin-top:  -75px;
+       text-align: center;
        font-family: Arial;
        color: white;
-       font-size: 40px;
+       font-size: 35px;
        font-weight: bold font-family: 'Goudy Old Style', Garamond, 'Big Caslon', 'Times New Roman', serif;
        font-variant: 30%;
        /*line-height: 26.3999996185303px; */
@@ -96,21 +72,26 @@
        background: purple;
        color: white;
        font-weight: bolder;
+         line-height: 142px;
    }
    #worksbutton {
        background-color: lightblue;
        color: white;
        font-weight: bolder;
+         line-height: 45px;
+         vertical-align: top;
    }
    #aboutbutton {
        background-color: lightgreen;
        color: white;
        font-weight: bolder;
+         line-height: 142px;
    }
    #homebutton {
        background-color: pink;
        color: white;
        font-weight: bolder;
+         line-height: 142px;
    }
    #contractsbutton:hover {
        border: 7px solid white;
@@ -118,6 +99,7 @@
        text-decoration: none;
        background: white;
        font-weight: bolder;
+         line-height: 142px;
    }
    #worksbutton:hover {
        border: 7px solid white;
@@ -125,6 +107,11 @@
        text-decoration: none;
        background: white;
        font-weight: bolder;
+         line-height: 45px;
+         vertical-align: top;
+         
+      
+          
    }
    #aboutbutton:hover {
        border: 7px solid white;
@@ -132,6 +119,8 @@
        text-decoration: none;
        background: white;
        font-weight: bolder;
+       font-weight: bolder;
+         line-height: 142px;
    }
    #homebutton:hover {
        border: 7px solid white;
@@ -139,6 +128,8 @@
        text-decoration: none;
        background: white;
        font-weight: bolder;
+       font-weight: bolder;
+         line-height: 142px;
    }
  
    a:hover {
@@ -156,14 +147,16 @@
        background-color: white: color: black;
        font-size: 20px;
    }
+
    #wrapper {
-       margin-left: 37.2%;
-       margin-top: 13%;
+       margin-left: 28.5%;
+       margin-top: 5%;
        background: white;
-       width: 780px;
-       height: 580px;
+       width: 43%;
+       height: 570px;
        border-radius: 25px;
    }
+
    #sideBar {
        float: left;
        width: 350px;
@@ -181,7 +174,7 @@
    
    #mainContent {
        float: right;
-       height: 550px;
+       height: 530px;
        width: 350px;
        background: white;
        color: black;
@@ -191,8 +184,20 @@
        margin: 20px;
        background-image: url("assets/self.jpg");
        background-repeat: no-repeat;
-       background-position: 2px-40px;
+       background-position: 2px-37px;
    }
+
+   #skills-content {
+       margin-left: 18.5%;
+       margin-top: 14%;
+       background: white;
+       width: 63%;
+       height: 570px;
+       border-radius: 25px;
+   }
+
+
+
 
   
    #button_container {
@@ -213,7 +218,7 @@
        margin-top: 16%;
        background: white;
        width: 770px;
-       height: 660px;
+       height: 640px;
        border-radius: 20px;
    }
  /*  #homebar {
@@ -235,18 +240,6 @@
        height: 580px;
        
    }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -339,7 +332,8 @@
    }
 
    .icon {
-   margin-left: 3%;
-    margin-right: 3%;
-    margin-bottom: 20px;
+       
+       margin-left: 1%;
+      
+
    }
