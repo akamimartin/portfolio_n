@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!-- saved from url=(0046)http://localhost/lf_projects/Sandbox/c4_TDL_n/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="./c4_TDL_n_files/jquery.min.js"></script><style type="text/css"></style>
+    <script src="./c4_TDL_n_files/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./c4_TDL_n_files/TDL.css">
+    <link rel="stylesheet" type="text/css" href="./c4_TDL_n_files/tdlnew.css">
+    <script type="text/javascript" src="./c4_TDL_n_files/TDL.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href="./c4_TDL_n_files/css" rel="stylesheet" type="text/css">
+    <script type="text/javascript">
+    </script>
+    <title></title>
+</head>
+
+<body>
+    <div class="container"><div class="col-xs-12 well">
+    <button id="logout_button" class="pull-right">Logout</button>
+    <div id="lastName" class="pull-right">Martin</div>
+    <div id="firstName" class="pull-right">Janet</div>
+    <i class="fa fa-user fa-2x pull-right"></i>
+    <div id="id" class="">5</div>
+</div>
+<div class="container col-xs-12  text-center pagination-centered">
+    <div class="list_container col-xs-12">
+        <!--Janets code -->
+        <p class="col-xs-12" id="main-title">To Do List</p>
+        <div class="container col-xs-12" id="input-container">
+            <div class="panel-group col-xs-12" id="accordionTwo">
+                <div class="panel panel-default">
+                    <h4 class="panel-title col-xs-12">
+                            <a class="accordion-toggle list-group" data-toggle="collapse" data-parent="#accordionTwo" href="http://localhost/lf_projects/Sandbox/c4_TDL_n/#collapseFour">
+                            <input type="text" id="title_LI" placeholder="Add new title" maxlength="30"> </a> 
+                        </h4>
+                </div>
+                <div class="panel-collapse collapse out" id="collapseFour">
+                    <div class="list-group">
+                        <a href="http://localhost/lf_projects/Sandbox/c4_TDL_n/#" class="list-group-item input-list" id="detail">
+                            <textarea class="" id="details_LI" placeholder="Add detail" maxlength="number"></textarea>
+                        </a>
+                        <a href="http://localhost/lf_projects/Sandbox/c4_TDL_n/#" class="list-group-item">
+                            <input type="datetime-local" class="" id="timeStamp_LI" placeholder="Add date"> <span></span></a>
+                    </div>
+                </div>
+            </div>
+            <a class="accordion-toggle list-group" data-toggle="collapse" data-parent="#accordionTwo" href="http://localhost/lf_projects/Sandbox/c4_TDL_n/#collapseFour">
+                <button type="button" class="btn  btn-info btn-sm  input-btn pull-right" id="btn"><span class="more-btn"></span> Less </button>
+            </a>
+        </div>
+        <button type="button" class="btn pull-left btn-xs pull-left" id="add_LI">Add List Item</button>
+        <button type="button" class="btn pull-left btn-xs pull_json_update pull-left" id="pull_json">List Items</button>
+        
+      
+        <input type="number" id="input_search_id" placeholder="Input Id">
+        <button type="button" class="btn   btn-xs " id="search_id_button">Search ID</button>
+        <div class="col-xs-12 send_item_alert"></div>
+
+        <div id="display_list" class="list-group"><ul class="TD_item list-group" id="318" data_index="0"><li class="to_do_title list-group-item">Title: Food Shopping postID: 318</li><button type="button" class="button" data_index="0">Details</button><button type="button" data_index="0">Update</button><button type="button" data_index="0">Complete</button><button type="button" data_index="0">Delete</button></ul><ul class="TD_item list-group" id="319" data_index="1"><li class="to_do_title list-group-item">Title: Cleaners postID: 319</li><button type="button" class="button" data_index="1">Details</button><button type="button" data_index="1">Update</button><button type="button" data_index="1">Complete</button><button type="button" data_index="1">Delete</button></ul><ul class="TD_item list-group" id="320" data_index="2"><li class="to_do_title list-group-item">Title: Take Car in postID: 320</li><button type="button" class="button" data_index="2">Details</button><button type="button" data_index="2">Update</button><button type="button" data_index="2">Complete</button><button type="button" data_index="2">Delete</button></ul></div>
+    </div>
+</div>
+<div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">×</button>
+                <h4 class="modal-title"></h4>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default close_button" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+</body></html>
