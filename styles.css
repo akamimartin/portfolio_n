@@ -38,7 +38,7 @@
 }
 
    .stylish:hover {
-       border: 7px solid white;
+       border: 10px solid white;
        color: purple;
        font-weight: bolder;
        text-decoration: none;
@@ -95,7 +95,7 @@
        line-height: 142px;
    }
    #contractsbutton:hover {
-       border: 7px solid white;
+       border: 10px solid white;
        color: purple;
        text-decoration: none;
        background: white;
@@ -103,7 +103,7 @@
        line-height: 142px;
    }
    #worksbutton:hover {
-       border: 7px solid white;
+       border: 10px solid white;
        color: lightblue;
        text-decoration: none;
        background: white;
@@ -116,7 +116,7 @@
    }
    #aboutbutton:hover {
  
-       border: 7px solid white;
+       border: 10px solid white;
        color: lightgreen;
        text-decoration: none;
        background: white;
@@ -125,7 +125,7 @@
        line-height: 142px;
    }
    #homebutton:hover {
-       border: 7px solid white;
+       border: 10px solid white;
        color: pink;
        text-decoration: none;
        background: white;
