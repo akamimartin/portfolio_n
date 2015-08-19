@@ -9,9 +9,30 @@ html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
+        width: 40%;
+       height:  40%;
+       /*background-color: wall3.jpg; */
+       background-image: url("./assets/gray_wall.jpg");
+       /*background-image: url("assets/blue_wall.jpg"); */
+       background-repeat: no-repeat;
+       background-size: 100% 100%;
+        width: 400px;
+  height: 500px;
+  background-color: blue;
+
+
+
+
 }
 body {
-  margin: 0;
+  margin: 20%;
+  margin-left: 40%;
+
+   background-image: url(".../assets/gray_wall.jpg");
+       /*background-image: url("assets/blue_wall.jpg"); */
+       background-repeat: no-repeat;
+       background-size: 100% 100%;
+       background-color: yellow;
 }
 article,
 aside,
