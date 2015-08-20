@@ -1,5 +1,5 @@
    html {
-      height: 335%;
+      height: 345%;
        /*background-color: wall3.jpg; */
        background-image: url("assets/gray_wall.jpg");
        /*background-image: url("assets/blue_wall.jpg"); */
@@ -35,6 +35,7 @@
        box-shadow: 2px 2px 3px #EDEDED;
        font-weight: 800: font-weight: bolder;
        vertical-align: text-bottom; 
+       margin-top: 2%;
 }
 
    .stylish:hover {
@@ -43,6 +44,7 @@
        font-weight: bolder;
        text-decoration: none;
        background: white;
+       margin-top:2%;
    }
    
 
@@ -57,7 +59,7 @@
    }
    #subheader {
        
-       margin-top:  -70px;
+       margin-top:  -3%;
        text-align: center;
        font-family: Arial;
        color: white;
@@ -73,18 +75,16 @@
        background: purple;
        color: white;
        font-weight: bolder;
-       line-height: 144px;
+       line-height: 146px;
+
    
    }
    #worksbutton {
        background-color: lightblue;
        color: white;
        font-weight: bolder;
-       line-height: 55px;
-       vertical-align: top;
-
-
-
+       line-height: 146px;
+   
    
    }
    #aboutbutton {
@@ -116,11 +116,8 @@
        text-decoration: none;
        background: white;
        font-weight: bolder;
-       line-height: 55px;
-       vertical-align: top;
-
-         
-      
+       line-height: 146px;
+           
           
    }
    #aboutbutton:hover {
@@ -148,12 +145,13 @@
        height: 300px;
        width: 800px;
        background-color: white: color: black;
+       margin-top:-5%;
      
    }
 
    #wrapper {
        margin-left: 20.9%;
-       margin-top:  -4.5%;
+       margin-top:  -5%;
        background: white;
        width: 57%;
        height: 930px;
@@ -163,7 +161,7 @@
 
    #skills_wrapper {
        margin-left: 22%;
-       margin-top:  5%;
+       margin-top:  -5%;
        background: white;
        width: 56%;
        height: 100%;
@@ -258,21 +256,23 @@
    }
 
    #contact_wrapper {
-       margin-left: 21.5%;
        margin-top:  -5%;
        background: white;
        width: 55%;
        height: 450px;
+       margin-left: 22%;
        border-radius: 25px;
     
    }
   #contact-content {
-       margin-top: -1.5%;
+       margin-top: -5%;
        margin-right: 20px;
        margin-left: 30%;
        width: 250%;
        height: 500px;
   }
+
+ 
 
  .contact-title {
     font-size: 30px;
@@ -437,13 +437,6 @@
    }
 
 
-
-
-
-
-
-
-
    /****CSS for Contact Page***/
    .container1 {
        border: 1x solid #e7e7e7;
@@ -451,6 +444,7 @@
        width: 440px;
        background-color: #f7f7f7;
        border: 2px solid #e7e7e7;
+       margin-top: -5%;
    }
    .heading1 {
        color: #7c7c7c;
@@ -507,7 +501,7 @@
        font-size: inherit;
    }
    .btn {
-       margin-top: 30px;
+       margin-top: 2%;
        margin-bottom: 10px;
        margin-left: 107px;
        padding: 4px 8px;
@@ -537,6 +531,7 @@
         width: 400px;
         height:800px;
         background-color: orange;
+        margin-top: -5%;
 
 
    }
@@ -547,7 +542,7 @@
       width: 10%;
       float:left;
       margin-left: 4%;
-      margin-top:   8%;
+      margin-top:   10%;
       margin-bottom: 3%;
  }
 h2 {
@@ -557,7 +552,7 @@ margin-left: -18%;
 }
 
  #row1 {
-  margin-top: 7%;
+  margin-top: 9%;
     float: left;
     margin-left: 39.5%;
     width:40%;
@@ -680,12 +675,12 @@ margin-left: -18%;
 
 
 #all_rows {
-  margin-top: -4%;
+  margin-top: -5%;
   background-color: white;
   width: 55%;
   height: 2750px;
   margin-left:22%;
-  border-radius: 1%;
+  border-radius: 25px;
 
 }
 
