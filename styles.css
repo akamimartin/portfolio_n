@@ -1,5 +1,5 @@
    html {
-      height: 490%;
+      height: 410%;
        /*background-color: wall3.jpg; */
        background-image: url("assets/gray_wall.jpg");
        /*background-image: url("assets/blue_wall.jpg"); */
@@ -326,14 +326,14 @@
   }
 
 
-   #test {
-    margin-top: 20%;
+   #contact_subtitles {
+    margin-top:17%;
 
    }
 
 
    .icon_c {
-     margin-top: 7.9%;
+     margin-top: 8.5%;
      margin-left:  -2%;
      margin-right: 6%;
 
