@@ -1,5 +1,5 @@
    html {
-      height: 345%;
+      height: 445%;
        /*background-color: wall3.jpg; */
        background-image: url("assets/gray_wall.jpg");
        /*background-image: url("assets/blue_wall.jpg"); */
@@ -154,7 +154,7 @@
        margin-top:  -5%;
        background: white;
        width: 57%;
-       height: 950px;
+       height: 992px;
        border-radius: 25px;
    }
 
@@ -280,7 +280,7 @@
     font-style: italic;
     font-weight: bolder;
     margin-left: 11%;
-    margin-top: -37%;
+    margin-top: -42%;
     width: 80%;
     word-wrap: break-word;
     margin-bottom: 2.5%;
@@ -678,7 +678,7 @@ margin-left: -18%;
 #all_rows {
   margin-top: -5%;
   background-color: white;
-  width: 55%;
+  width: 59%;
   height: 2750px;
   margin-left:22%;
   border-radius: 25px;
