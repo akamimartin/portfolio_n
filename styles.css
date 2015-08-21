@@ -1,5 +1,5 @@
    html {
-      height: 445%;
+      height: 410%;
        /*background-color: wall3.jpg; */
        background-image: url("assets/gray_wall.jpg");
        /*background-image: url("assets/blue_wall.jpg"); */
@@ -280,12 +280,57 @@
     font-style: italic;
     font-weight: bolder;
     margin-left: 11%;
-    margin-top: -42%;
+    margin-top: -39%;
     width: 80%;
     word-wrap: break-word;
     margin-bottom: 2.5%;
              
    }
+
+
+   #email {
+     font-size: 18px;
+    color: black;
+    font-style: italic;
+    font-weight: bolder;
+    margin-left: 20%;
+    margin-top: 40px;
+    width: 20%;
+    word-wrap: break-word;
+   
+  }
+
+
+   #link {
+    font-size: 18px;
+    color: black;
+    font-style: italic;
+    font-weight: bolder;
+    margin-left:  7.5%;
+    margin-top: 020%;
+    width: 20%;
+    word-wrap: break-word;
+   
+  }
+
+   #git {
+    font-size: 18px;
+    color: black;
+    font-style: italic;
+    font-weight: bolder;
+    margin-left: 15%;
+    margin-top: 10%;
+    width: 20%;
+    word-wrap: break-word;
+   
+  }
+
+
+   #test {
+    margin-top: 20%;
+
+   }
+
 
    .icon_c {
      margin-top: 7.9%;
@@ -687,7 +732,6 @@ margin-left: -18%;
 
 img {
  margin-top: 10%;
-
 
 }
 
