@@ -1,5 +1,5 @@
    html {
-      height: 410%;
+      height: 390%;
        /*background-color: wall3.jpg; */
        background-image: url("assets/gray_wall.jpg");
        /*background-image: url("assets/blue_wall.jpg"); */
@@ -306,7 +306,7 @@
     color: black;
     font-style: italic;
     font-weight: bolder;
-    margin-left:  7.5%;
+    margin-left:  7%;
     margin-top: 020%;
     width: 20%;
     word-wrap: break-word;
@@ -318,7 +318,7 @@
     color: black;
     font-style: italic;
     font-weight: bolder;
-    margin-left: 15%;
+    margin-left: 14%;
     margin-top: 10%;
     width: 20%;
     word-wrap: break-word;
@@ -327,7 +327,7 @@
 
 
    #contact_subtitles {
-    margin-top:17%;
+    margin-top: 14%;
 
    }
 
