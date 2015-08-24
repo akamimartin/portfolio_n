@@ -57,6 +57,34 @@
        color: white;
        font-weight: bolder;
    }
+
+   #nameheader-p {
+       margin-top: .52%;
+       text-align: center;
+       width: 100%;
+       font-weight: bold font-family: 'Goudy Old Style', Garamond, 'Big Caslon', 'Times New Roman', serif;
+       font-size: 80px;
+       color: white;
+       font-weight: bolder;
+   }
+ 
+
+  #subheader-p {
+       
+       margin-top:  -3%;
+       text-align: center;
+       font-family: Arial;
+       color: white;
+       font-size: 35px;
+       font-weight: bold font-family: 'Goudy Old Style', Garamond, 'Big Caslon', 'Times New Roman', serif;
+       font-variant: 30%;
+       /*line-height: 26.3d996185303px; */
+        width: 100%;
+    }
+
+
+
+
    #subheader {
        
        margin-top:  -3%;
@@ -76,7 +104,7 @@
        color: white;
        font-weight: bolder;
        line-height: 146px;
-
+       text-decoration: none;
    
    }
    #worksbutton {
@@ -84,7 +112,7 @@
        color: white;
        font-weight: bolder;
        line-height: 146px;
-   
+       text-decoration: none;
    
    }
    #aboutbutton {
@@ -92,13 +120,14 @@
        color: white;
        font-weight: bolder;
        line-height: 146px;
-
+       text-decoration: none;
    }
    #homebutton {
        background-color: pink;
        color: white;
        font-weight: bolder;
        line-height: 146px;
+       text-decoration: none;
 
    }
    #contractsbutton:hover {
@@ -117,7 +146,8 @@
        background: white;
        font-weight: bolder;
        line-height: 146px;
-           
+ 
+
           
    }
    #aboutbutton:hover {
@@ -150,10 +180,10 @@
    }
 
    #wrapper {
-       margin-left: 20.9%;
+       margin-left: 22%;
        margin-top:  -5%;
        background: white;
-       width: 57%;
+       width: 55%;
        height: 1025px;
        border-radius: 25px;
    }
@@ -723,9 +753,9 @@ margin-left: -18%;
 #all_rows {
   margin-top: -5%;
   background-color: white;
-  width: 59%;
+  width: 55%;
   height: 2750px;
-  margin-left:22%;
+  margin-left: 22%;
   border-radius: 25px;
 
 }
@@ -734,5 +764,4 @@ img {
  margin-top: 10%;
 
 }
-
  
