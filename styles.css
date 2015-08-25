@@ -183,7 +183,7 @@
        margin-left: 22%;
        margin-top:  -5%;
        background: white;
-       width: 59%;
+       width: 55%;
        height: 1035px;
        border-radius: 25px;
    }
@@ -288,7 +288,7 @@
    #contact_wrapper {
        margin-top:  -5%;
        background: white;
-       width: 59%;
+       width: 55%;
        height: 450px;
        margin-left: 22%;
        border-radius: 25px;
@@ -628,7 +628,7 @@ margin-left: -18%;
 }
 
  #row1 {
-  margin-top: 9%;
+   margin-top: 9%;
     float: left;
     margin-left: 39.5%;
     width:40%;
@@ -642,7 +642,7 @@ margin-left: -18%;
       width: 10%;
       margin-left:  4%;
       margin-top:   2%;
-      margin-bottom: 2%;
+      margin-bottom: 3%;
  }
 
 
@@ -652,6 +652,7 @@ margin-left: -18%;
     width:40%;
     font-size: 125%;
     word-wrap: break-word;
+    margin-bottom: 3%;
    
  }
  hr {
@@ -753,7 +754,7 @@ margin-left: -18%;
 #all_rows {
   margin-top: -5%;
   background-color: white;
-  width: 59%;
+  width: 55%;
   height: 2770px;
   margin-left: 22%;
   border-radius: 25px;
